@@ -149,6 +149,42 @@ h1{
     border-radius: 3px;
     padding: 17px;
     cursor: pointer;
+    color: white;
+}
+
+/* sign up page  */
+.ourInquiryDetails{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#mainFormSection{
+    display: flex;
+    justify-content: center;
+}
+#formFormPage{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#formFormPage input{
+    padding: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+}
+#formFormPage .button{
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 1px;
+    background: #273B3E;
+    border-radius: 3px;
+    padding: 17px;
+    color: white;
+    text-align: center;
 }
 
 /* Media query for responsivness */
