@@ -186,6 +186,12 @@ h1{
     color: white;
     text-align: center;
 }
+#formFormPage label{
+    cursor: pointer;
+}
+.ourInquiryDetails a{
+    text-decoration: none;
+}
 
 /* Media query for responsivness */
 
