@@ -36,7 +36,7 @@
   /* LAYOUT
   /*******************************************/
 html{
-    font-size: 15px;
+    font-size: 17px;
 }
      
 body{
@@ -44,6 +44,7 @@ body{
     padding-inline: 1rem;
     padding-block: 1rem;
  }
+ 
 
 header *{
     background:#B4D8CE;
@@ -52,7 +53,7 @@ header *{
     justify-content: space-around;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 11px;
+    /* font-size: rem; */
     margin-bottom: 9px;
 }
 #logo{
@@ -73,7 +74,7 @@ header *{
     margin-top: -6px;
 }
 li{
-    margin-left: 1rem;
+    margin-left: 20px;
 }
 .signIn{
     border: 1px solid;
@@ -108,7 +109,7 @@ li{
     margin-left: 1rem;
 }
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
     max-width: 100%;
     /* font-family: 'Roboto', sans-serif; */
@@ -229,7 +230,9 @@ h1{
 /* Media query for responsivness */
 
 @media screen and (max-width: 750px) {
-
+    html{
+        font-size: 11px;
+    }
     .trading{
         flex-wrap: wrap;
     }
@@ -245,6 +248,12 @@ h1{
     }
 }
 @media screen and (max-width: 414px){
+    html{
+          font-size: 10px; 
+    }
+    .box-1 h1{
+        text-align: center;
+    }
     .navigation ul{
           display: none;
     }
@@ -259,7 +268,7 @@ h1{
         display: block;
         margin-top: 10px;
         text-align: center;
-        margin-left: 67px;
+        margin-left: 90px;
         height: 45px;
     }
     #formy input{
@@ -268,11 +277,20 @@ h1{
     .formFormPage input{
         width: 150px
     }
+    #button{
+        padding: 5px;
+        height: 10px;
+        font-size: 1rem;
+    }
+    .west input{
+        padding: 19px;
+        height: 10px;
+    }
 }
 
 @media screen and (max-width: 375px){
     html{
-          font-size: 12px; 
+          font-size: 10px; 
     }
     .trading .be-4{
         font-size:14px;
@@ -310,4 +328,3 @@ h1{
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
-  
