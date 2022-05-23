@@ -44,7 +44,7 @@ body{
     padding-inline: 1rem;
     padding-block: 1rem;
  }
- 
+
 
 header *{
     background:#B4D8CE;
@@ -78,6 +78,7 @@ li{
 }
 .signIn{
     border: 1px solid;
+    border-radius: 4px;
     padding: 8px;
     margin:6px;
     color: green;      
@@ -85,6 +86,7 @@ li{
 #signUp.signIn{
     background: rgba(8, 17, 8, 0.767);
     color: white;
+    border-radius: 4px;
 }
 .introSect{
     display: flex;
@@ -140,6 +142,7 @@ h1{
     margin: 0 1rem 1rem 0
 }
 .newUserSect{
+    border-radius: 3px;
     border:1px solid #4dbac0;
     margin-top: 7px;
 }
@@ -225,6 +228,9 @@ h1{
     font-size: 2rem;
     color: rgba(90, 154, 50, 0.496);
 }
+.newUserSect{
+    margin-block-end: 100px;
+}
 
 
 /* Media query for responsivness */
@@ -275,7 +281,11 @@ h1{
         width: 150px;
     } 
     .formFormPage input{
-        width: 150px
+        width: 150px;
+        padding-right: 0;
+        /* 79 */
+        padding: 12px;
+        border: 6px;
     }
     #button{
         padding: 5px;
