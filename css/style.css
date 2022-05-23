@@ -85,10 +85,14 @@ li{
     background: rgba(8, 17, 8, 0.767);
     color: white;
 }
-.introSect {
+.introSect{
     display: flex;
+    justify-content: center;
     padding: 3rem;
     margin-bottom: -3rem;
+    border-top: 1px solid rgba(8, 17, 8, 0.767);
+}
+.signUpFirstPage,.signInPage {
     border-top: 1px solid rgba(8, 17, 8, 0.767);
 }
 .box-1, .box-2{
@@ -221,6 +225,7 @@ h1{
     color: rgba(90, 154, 50, 0.496);
 }
 
+
 /* Media query for responsivness */
 
 @media screen and (max-width: 750px) {
@@ -246,6 +251,10 @@ h1{
     .real h2, h4{
         text-align: center;
     }
+
+    .west input{
+        margin-inline: 10px;
+    }
     .west #button{
         display: block;
         margin-top: 10px;
@@ -253,10 +262,17 @@ h1{
         margin-left: 67px;
         height: 45px;
     }
+    #formy input{
+        width: 150px;
+    } 
+    .formFormPage input{
+        width: 150px
+    }
 }
+
 @media screen and (max-width: 375px){
     html{
-          font-size: 0.7rem; 
+          font-size: 12px; 
     }
     .trading .be-4{
         font-size:14px;
@@ -265,6 +281,13 @@ h1{
     div .signIn{
         font-size: 8px;
     }
+    .introSect{
+        padding-inline: 10px ;
+    }
+    .be-4{
+        text-align: center;
+    }
+
     button{
         margin-left: auto;
     }
