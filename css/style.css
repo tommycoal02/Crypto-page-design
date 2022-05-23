@@ -259,6 +259,7 @@ h1{
     }
     .box-1 h1{
         text-align: center;
+        font-size: 3rem;
     }
     .navigation ul{
           display: none;
