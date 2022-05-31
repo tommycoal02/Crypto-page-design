@@ -43,7 +43,7 @@ body{
     background:#B4D8CE;
     padding-inline: 1rem;
     padding-block: 1rem;
- }
+}
 
 
 header *{
@@ -78,7 +78,7 @@ li{
 }
 .signIn{
     border: 1px solid;
-    border-radius: 4px;
+    border-radius: 3px;
     padding: 8px;
     margin:6px;
     color: green;      
@@ -86,14 +86,14 @@ li{
 #signUp.signIn{
     background: rgba(8, 17, 8, 0.767);
     color: white;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 .introSect{
     display: flex;
     justify-content: center;
     padding: 3rem;
     margin-bottom: -3rem;
-    border-top: 1px solid rgba(8, 17, 8, 0.767);
+    border-top: 2px solid rgba(8, 17, 8, 0.767);
 }
 .signUpFirstPage,.signInPage {
     border-top: 1px solid rgba(8, 17, 8, 0.767);
@@ -141,6 +141,10 @@ h1{
     padding: 3rem;
     margin: 0 1rem 1rem 0
 }
+.realText{
+    color: white;
+}
+
 .newUserSect{
     border-radius: 3px;
     border:1px solid #4dbac0;
@@ -231,6 +235,9 @@ h1{
 .newUserSect{
     margin-block-end: 100px;
 }
+.acknowledgment{
+    text-align: center;
+}
 
 
 /* Media query for responsivness */
@@ -298,6 +305,7 @@ h1{
         height: 10px;
     }
 }
+
 
 @media screen and (max-width: 375px){
     html{
