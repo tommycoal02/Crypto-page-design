@@ -287,10 +287,10 @@ h1{
         height: 45px;
     }
     #formy input{
-        width: 150px;
+        width: 300px;
     } 
     .formFormPage input{
-        width: 150px;
+        width: 300px;
         padding-right: 0;
         /* 79 */
         padding: 12px;
